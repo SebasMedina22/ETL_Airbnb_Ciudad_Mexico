@@ -73,21 +73,18 @@ python src/carga.py
 
 ## 👥 Integrantes del Grupo
 
-- **Sebastian Medina** - Implementación completa del proceso ETL (Puntos 1, 3, 4, 5)
-- **Melisa** - Análisis Exploratorio de Datos (Punto 2)
+- **Sebastian Medina**
+- **Melisa**
+- **Carlos**
 
 ## 📋 Responsabilidades
 
 ### Sebastian Medina
-- ✅ Conexión y extracción de datos (MongoDB Atlas)
-- ✅ Transformación de datos (limpieza, normalización, feature engineering)
-- ✅ Carga de datos (SQLite + Excel)
-- ✅ Sistema de logging completo
-- ✅ Documentación y estructura del proyecto
 
 ### Melisa
-- 🔄 Análisis Exploratorio de Datos (EDA)
-- 🔄 Notebook de exploración con gráficas y análisis interpretativo
+
+### Carlos
+
 
 ## 📈 Características Implementadas
 
@@ -134,11 +131,3 @@ python src/carga.py
 - **Matplotlib/Seaborn** - Visualizaciones
 - **MongoDB Atlas** - Base de datos origen
 - **SQLite** - Base de datos destino
-
-## 📄 Licencia
-
-Este proyecto es parte de un taller académico de Inteligencia de Negocios.
-
-## 📞 Contacto
-
-Para preguntas sobre el proyecto, contactar a los integrantes del grupo.
