@@ -1,0 +1,94 @@
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - INICIO DEL LOG - Proceso: TRANSFORMACION
+2025-10-17 17:58:43 - INFO - Archivo de log: log_TRANSFORMACION_20251017_175843.txt
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - Inicializando modulo de Transformacion de Airbnb
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - INICIANDO TRANSFORMACION COMPLETA DE LISTINGS
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - Datos iniciales:
+2025-10-17 17:58:43 - INFO -   - Registros: 1,000
+2025-10-17 17:58:43 - INFO -   - Columnas: 19
+2025-10-17 17:58:43 - INFO - Iniciando eliminacion de duplicados basado en columna 'id'
+2025-10-17 17:58:43 - INFO - 
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 TRANSFORMACION APLICADA: Eliminacion de duplicados
+\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 Registros ANTES:   1,000
+\u2551 Registros DESPUES: 1,000
+\u2551 Diferencia:        0 (0.00%)
+\u2551 Detalles:          0 registros duplicados eliminados
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2025-10-17 17:58:43 - INFO - Iniciando normalizacion de precios en columna 'price'
+2025-10-17 17:58:43 - INFO - Normalizacion de precios completada:
+2025-10-17 17:58:43 - INFO -   - Valores unicos originales: 619
+2025-10-17 17:58:43 - INFO -   - Valores convertidos a NaN: 196
+2025-10-17 17:58:43 - INFO -   - Precio minimo: $152.00
+2025-10-17 17:58:43 - INFO -   - Precio maximo: $48704.00
+2025-10-17 17:58:43 - INFO -   - Precio promedio: $1549.15
+2025-10-17 17:58:43 - INFO - Iniciando manejo de valores nulos - Estrategia: eliminar
+2025-10-17 17:58:43 - INFO - Columnas con valores nulos detectadas: 6
+2025-10-17 17:58:43 - INFO -   - host_name: 51 nulos (5.10%)
+2025-10-17 17:58:43 - INFO -   - neighbourhood_group: 1000 nulos (100.00%)
+2025-10-17 17:58:43 - INFO -   - price: 196 nulos (19.60%)
+2025-10-17 17:58:43 - INFO -   - last_review: 90 nulos (9.00%)
+2025-10-17 17:58:43 - INFO -   - reviews_per_month: 90 nulos (9.00%)
+2025-10-17 17:58:43 - INFO -   - license: 1000 nulos (100.00%)
+2025-10-17 17:58:43 - INFO - Eliminando filas con nulos en columnas criticas: ['id', 'name', 'price']
+2025-10-17 17:58:43 - INFO - 
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 TRANSFORMACION APLICADA: Manejo de valores nulos
+\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 Registros ANTES:   1,000
+\u2551 Registros DESPUES: 804
+\u2551 Diferencia:        196 (19.60%)
+\u2551 Detalles:          Estrategia: eliminar
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2025-10-17 17:58:43 - INFO - Iniciando conversion de fechas a formato ISO (YYYY-MM-DD)
+2025-10-17 17:58:43 - INFO - Columnas de fecha detectadas: ['last_scraped', 'host_since', 'first_review', 'last_review']
+2025-10-17 17:58:43 - INFO -   - Columna 'last_review' convertida a formato ISO
+2025-10-17 17:58:43 - WARNING -     \u26a0 37 fechas no pudieron ser convertidas (NaT)
+2025-10-17 17:58:43 - INFO - Iniciando categorizacion de precios desde columna 'price'
+2025-10-17 17:58:43 - INFO - Percentiles calculados:
+2025-10-17 17:58:43 - INFO -   - P25 (Bajo): $649.25
+2025-10-17 17:58:43 - INFO -   - P50 (Medio): $1009.00
+2025-10-17 17:58:43 - INFO -   - P75 (Alto): $1561.75
+2025-10-17 17:58:43 - INFO - Distribucion de categorias:
+2025-10-17 17:58:43 - INFO -   - Medio: 202 (25.12%)
+2025-10-17 17:58:43 - INFO -   - Premium: 201 (25.00%)
+2025-10-17 17:58:43 - INFO -   - Bajo: 201 (25.00%)
+2025-10-17 17:58:43 - INFO -   - Alto: 200 (24.88%)
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - TRANSFORMACION COMPLETA FINALIZADA
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - Datos finales:
+2025-10-17 17:58:43 - INFO -   - Registros: 804 (perdidos: 196)
+2025-10-17 17:58:43 - INFO -   - Columnas: 20 (añadidas: 1)
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - INICIANDO TRANSFORMACION COMPLETA DE REVIEWS
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - Iniciando conversion de fechas a formato ISO (YYYY-MM-DD)
+2025-10-17 17:58:43 - INFO - Columnas de fecha detectadas: ['date']
+2025-10-17 17:58:43 - INFO -   - Columna 'date' convertida a formato ISO
+2025-10-17 17:58:43 - INFO - Iniciando derivacion de variables desde columna 'date'
+2025-10-17 17:58:43 - INFO - Variables temporales creadas: ['review_year', 'review_month', 'review_day', 'review_quarter', 'review_day_of_week']
+2025-10-17 17:58:43 - INFO -   - Rango de años: 2011 - 2025
+2025-10-17 17:58:43 - INFO -   - Meses unicos: 12
+2025-10-17 17:58:43 - INFO - Iniciando manejo de valores nulos - Estrategia: eliminar
+2025-10-17 17:58:43 - INFO - Eliminando filas con nulos en columnas criticas: ['listing_id', 'date']
+2025-10-17 17:58:43 - INFO - 
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 TRANSFORMACION APLICADA: Manejo de valores nulos
+\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 Registros ANTES:   1,000
+\u2551 Registros DESPUES: 1,000
+\u2551 Diferencia:        0 (0.00%)
+\u2551 Detalles:          Estrategia: eliminar
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - TRANSFORMACION DE REVIEWS FINALIZADA
+2025-10-17 17:58:43 - INFO - Registros: 1,000 \u2192 1,000
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - ============================================================
+2025-10-17 17:58:43 - INFO - FIN DEL LOG
+2025-10-17 17:58:43 - INFO - ============================================================

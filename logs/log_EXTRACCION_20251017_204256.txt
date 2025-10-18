@@ -1,0 +1,10 @@
+2025-10-17 20:42:56 - INFO - ============================================================
+2025-10-17 20:42:56 - INFO - INICIO DEL LOG - Proceso: EXTRACCION
+2025-10-17 20:42:56 - INFO - Archivo de log: log_EXTRACCION_20251017_204256.txt
+2025-10-17 20:42:56 - INFO - ============================================================
+2025-10-17 20:42:56 - INFO - Inicializando modulo de Extraccion de Airbnb
+2025-10-17 20:42:56 - INFO - Conectando a la base de datos 'bi_mx'...
+2025-10-17 20:43:02 - INFO - Conexion exitosa a la base de datos 'bi_mx'.
+2025-10-17 20:43:02 - INFO - Extrayendo datos de la coleccion 'listings'...
+2025-10-17 20:43:03 - INFO - Coleccion 'listings' extraida correctamente. Registros obtenidos: 1000
+2025-10-17 20:43:03 - INFO - FIN DEL LOG

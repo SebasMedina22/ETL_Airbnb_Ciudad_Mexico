@@ -1,0 +1,64 @@
+2025-10-17 18:57:14 - INFO - ============================================================
+2025-10-17 18:57:14 - INFO - INICIO DEL LOG - Proceso: CARGA
+2025-10-17 18:57:14 - INFO - Archivo de log: log_CARGA_20251017_185714.txt
+2025-10-17 18:57:14 - INFO - ============================================================
+2025-10-17 18:57:14 - INFO - Inicializando modulo de Carga de datos
+2025-10-17 18:57:14 - INFO - ============================================================
+2025-10-17 18:57:14 - INFO - INICIANDO PROCESO COMPLETO DE CARGA
+2025-10-17 18:57:14 - INFO - ============================================================
+2025-10-17 18:57:14 - INFO - PASO 1: Conectando a SQLite...
+2025-10-17 18:57:14 - INFO - Conexion exitosa a SQLite: ../data/airbnb_etl.db
+2025-10-17 18:57:14 - INFO - PASO 2: Creando tablas...
+2025-10-17 18:57:14 - INFO - Iniciando creacion de tablas en SQLite
+2025-10-17 18:57:14 - INFO - Tablas creadas exitosamente:
+2025-10-17 18:57:14 - INFO -   - listings: Informacion de propiedades
+2025-10-17 18:57:14 - INFO -   - reviews: Resenas de usuarios
+2025-10-17 18:57:14 - INFO - PASO 3: Cargando listings...
+2025-10-17 18:57:14 - INFO - Iniciando carga de listings - Accion: replace
+2025-10-17 18:57:14 - INFO - Registros a cargar: 804
+2025-10-17 18:57:14 - ERROR - Error al cargar listings: (sqlite3.ProgrammingError) Error binding parameter 1: type 'ObjectId' is not supported
+[SQL: INSERT INTO listings (_id, id, name, host_id, host_name, neighbourhood_group, neighbourhood, latitude, longitude, room_type, price, minimum_nights, number_of_reviews, last_review, reviews_per_month, calculated_host_listings_count, availability_365, number_of_reviews_ltm, license, price_category, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [(ObjectId('68f2c31b8eabc249e4a4093f'), 35797, 'Villa Dante', 153786, 'Dici', None, 'Cuajimalpa de Morelos', 19.38283, -99.27178, 'Entire home/apt', 3799.0, 1, 0, None, None, 1, 364, 0, None, 'Premium', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40940'), 44616, 'Condesa Haus', 196253, 'Fernando', None, 'Cuauhtémoc', 19.41162, -99.17794, 'Entire home/apt', 18000.0, 1, 65, '2025-01-01 00:00:00.000000', 0.39, 9, 360, 1, None, 'Premium', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40941'), 56074, 'Great space in historical San Rafael', 265650, 'Maris', None, 'Cuauhtémoc', 19.43977, -99.15605, 'Entire home/apt', 585.0, 15, 84, '2025-02-27 00:00:00.000000', 0.48, 1, 338, 1, None, 'Bajo', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40942'), 67703, '2 bedroom apt. deco bldg, Condesa', 334451, 'Nicholas', None, 'Cuauhtémoc', 19.41152, -99.16857, 'Entire home/apt', 1696.0, 2, 50, '2024-10-30 00:00:00.000000', 0.3, 2, 267, 1, None, 'Premium', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40943'), 70644, 'Beautiful light Studio Coyoacan- full equipped !', 212109, 'Trisha', None, 'Coyoacán', 19.35448, -99.16217, 'Entire home/apt', 1004.0, 3, 132, '2024-12-28 00:00:00.000000', 0.81, 3, 211, 8, None, 'Medio', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40945'), 165772, 'BEST 5 Bedroom HOUSE IN S. Miguel Chapultepec', 790208, 'Francisco Carlos', None, 'Miguel Hidalgo', 19.40826, -99.18659, 'Entire home/apt', 4071.0, 2, 383, '2025-05-27 00:00:00.000000', 2.26, 5, 177, 31, None, 'Premium', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40946'), 171109, 'Cool room near WTC and Metrobus', 816295, 'Carlos', None, 'Benito Juárez', 19.39675, -99.17581, 'Private room', 315.0, 4, 117, '2025-06-23 00:00:00.000000', 0.85, 2, 355, 10, None, 'Bajo', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40947'), 180808, "Huge Luxurious Suite 70's style, perfectly located", 36836, 'Roberto', None, 'Cuauhtémoc', 19.4239, -99.1689, 'Entire home/apt', 1412.0, 3, 60, '2025-05-24 00:00:00.000000', 0.37, 1, 355, 9, None, 'Alto', '2025-10-17 18:57:14.621220')  ... displaying 10 of 804 total bound parameter sets ...  (ObjectId('68f2c31b8eabc249e4a40d23'), 13166216, 'Bright, modern & cozy apartment, great location.', 70270847, 'Margarita', None, 'Cuauhtémoc', 19.41795, -99.17275, 'Entire home/apt', 1488.0, 4, 143, '2025-06-09 00:00:00.000000', 1.29, 2, 104, 37, None, 'Alto', '2025-10-17 18:57:14.621220'), (ObjectId('68f2c31b8eabc249e4a40d24'), 13166841, 'Great location to explore Coyoacán', 73545292, 'Virginia Patricia', None, 'Coyoacán', 19.34069, -99.16812, 'Entire home/apt', 808.0, 2, 101, '2025-03-01 00:00:00.000000', 0.98, 2, 363, 2, None, 'Medio', '2025-10-17 18:57:14.621220')]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-17 18:57:14 - INFO - PASO 4: Cargando reviews...
+2025-10-17 18:57:14 - INFO - Iniciando carga de reviews - Accion: replace
+2025-10-17 18:57:14 - INFO - Registros a cargar: 1,000
+2025-10-17 18:57:14 - ERROR - Error al cargar reviews: (sqlite3.ProgrammingError) Error binding parameter 1: type 'ObjectId' is not supported
+[SQL: INSERT INTO reviews (_id, listing_id, date, review_year, review_month, review_day, review_quarter, review_day_of_week, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [(ObjectId('68f2c31f8eabc249e4a40d27'), 44616, '2011-11-09 00:00:00.000000', 2011, 11, 9, 4, 2, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d28'), 44616, '2012-08-16 00:00:00.000000', 2012, 8, 16, 3, 3, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d29'), 44616, '2012-12-28 00:00:00.000000', 2012, 12, 28, 4, 4, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d2a'), 44616, '2013-01-04 00:00:00.000000', 2013, 1, 4, 1, 4, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d2b'), 44616, '2013-03-19 00:00:00.000000', 2013, 3, 19, 1, 1, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d2c'), 44616, '2013-03-24 00:00:00.000000', 2013, 3, 24, 1, 6, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d2d'), 44616, '2013-06-15 00:00:00.000000', 2013, 6, 15, 2, 5, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a40d2e'), 44616, '2013-09-24 00:00:00.000000', 2013, 9, 24, 3, 1, '2025-10-17 18:57:14.751564')  ... displaying 10 of 1000 total bound parameter sets ...  (ObjectId('68f2c31f8eabc249e4a4110d'), 10257549, '2018-02-10 00:00:00.000000', 2018, 2, 10, 1, 5, '2025-10-17 18:57:14.751564'), (ObjectId('68f2c31f8eabc249e4a4110e'), 10257549, '2018-02-11 00:00:00.000000', 2018, 2, 11, 1, 6, '2025-10-17 18:57:14.751564')]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-10-17 18:57:14 - INFO - PASO 5: Exportando a Excel...
+2025-10-17 18:57:14 - INFO - Iniciando exportacion a Excel: ../data/airbnb_datos_limpios.xlsx
+2025-10-17 18:57:19 - INFO - Archivo Excel creado exitosamente:
+2025-10-17 18:57:19 - INFO -   - Ubicacion: ../data/airbnb_datos_limpios.xlsx
+2025-10-17 18:57:19 - INFO -   - Hojas: Listings, Reviews, Resumen
+2025-10-17 18:57:19 - INFO -   - Listings: 804 registros
+2025-10-17 18:57:19 - INFO -   - Reviews: 1,000 registros
+2025-10-17 18:57:19 - INFO - PASO 6: Verificando carga...
+2025-10-17 18:57:19 - INFO - Iniciando verificacion de carga en SQLite
+2025-10-17 18:57:19 - INFO - ============================================================
+2025-10-17 18:57:19 - INFO - VERIFICACION DE CARGA COMPLETADA
+2025-10-17 18:57:19 - INFO - ============================================================
+2025-10-17 18:57:19 - INFO - \U0001f4ca LISTINGS:
+2025-10-17 18:57:19 - INFO -   - Registros: 0
+2025-10-17 18:57:19 - INFO -   - Columnas: 21
+2025-10-17 18:57:19 - INFO -   - Estado: ERROR
+2025-10-17 18:57:19 - INFO - \U0001f4ca REVIEWS:
+2025-10-17 18:57:19 - INFO -   - Registros: 0
+2025-10-17 18:57:19 - INFO -   - Columnas: 9
+2025-10-17 18:57:19 - INFO -   - Estado: ERROR
+2025-10-17 18:57:19 - INFO - \U0001f517 INTEGRIDAD:
+2025-10-17 18:57:19 - INFO -   - Reviews sin listing: 0
+2025-10-17 18:57:19 - INFO -   - Estado: OK
+2025-10-17 18:57:19 - INFO - \U0001f4be BASE DE DATOS:
+2025-10-17 18:57:19 - INFO -   - Ruta: ../data/airbnb_etl.db
+2025-10-17 18:57:19 - INFO -   - Tamaño: 0.01 MB
+2025-10-17 18:57:19 - INFO - ============================================================
+2025-10-17 18:57:19 - INFO - ============================================================
+2025-10-17 18:57:19 - INFO - PROCESO DE CARGA FINALIZADO
+2025-10-17 18:57:19 - INFO - ============================================================
+2025-10-17 18:57:19 - INFO - Pasos exitosos: 3/5
+2025-10-17 18:57:19 - INFO - Estado general: \u26a0\ufe0f PARCIAL
+2025-10-17 18:57:19 - INFO - ============================================================
+2025-10-17 18:57:19 - INFO - FIN DEL LOG
+2025-10-17 18:57:19 - INFO - ============================================================

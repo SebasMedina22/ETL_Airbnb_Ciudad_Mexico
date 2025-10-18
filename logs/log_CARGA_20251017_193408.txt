@@ -1,0 +1,77 @@
+2025-10-17 19:34:08 - INFO - ============================================================
+2025-10-17 19:34:08 - INFO - INICIO DEL LOG - Proceso: CARGA
+2025-10-17 19:34:08 - INFO - Archivo de log: log_CARGA_20251017_193408.txt
+2025-10-17 19:34:08 - INFO - ============================================================
+2025-10-17 19:34:08 - INFO - Inicializando modulo de Carga de datos
+2025-10-17 19:34:08 - INFO - Directorio creado: ../data
+2025-10-17 19:34:08 - INFO - ============================================================
+2025-10-17 19:34:08 - INFO - INICIANDO PROCESO COMPLETO DE CARGA
+2025-10-17 19:34:08 - INFO - ============================================================
+2025-10-17 19:34:08 - INFO - PASO 1: Conectando a SQLite...
+2025-10-17 19:34:08 - INFO - Conexion exitosa a SQLite: ../data/airbnb_etl.db
+2025-10-17 19:34:08 - INFO - PASO 2: Creando tablas...
+2025-10-17 19:34:08 - INFO - Iniciando creacion de tablas en SQLite
+2025-10-17 19:34:08 - INFO - Tablas creadas exitosamente:
+2025-10-17 19:34:08 - INFO -   - listings: Informacion de propiedades
+2025-10-17 19:34:08 - INFO -   - reviews: Resenas de usuarios
+2025-10-17 19:34:08 - INFO - PASO 3: Cargando listings...
+2025-10-17 19:34:08 - INFO - Iniciando carga de listings - Accion: replace
+2025-10-17 19:34:08 - INFO - Registros a cargar: 804
+2025-10-17 19:34:09 - INFO - Listings cargados exitosamente: 804 registros
+2025-10-17 19:34:09 - INFO - 
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 TRANSFORMACION APLICADA: Carga de listings a SQLite
+\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 Registros ANTES:   804
+\u2551 Registros DESPUES: 804
+\u2551 Diferencia:        0 (0.00%)
+\u2551 Detalles:          Base de datos: ../data/airbnb_etl.db
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2025-10-17 19:34:09 - INFO - PASO 4: Cargando reviews...
+2025-10-17 19:34:09 - INFO - Iniciando carga de reviews - Accion: replace
+2025-10-17 19:34:09 - INFO - Registros a cargar: 1,000
+2025-10-17 19:34:09 - INFO - Reviews cargados exitosamente: 1,000 registros
+2025-10-17 19:34:09 - INFO - 
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 TRANSFORMACION APLICADA: Carga de reviews a SQLite
+\u2560\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+\u2551 Registros ANTES:   1,000
+\u2551 Registros DESPUES: 1,000
+\u2551 Diferencia:        0 (0.00%)
+\u2551 Detalles:          Base de datos: ../data/airbnb_etl.db
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+2025-10-17 19:34:09 - INFO - PASO 5: Exportando a Excel...
+2025-10-17 19:34:09 - INFO - Iniciando exportacion a Excel: ../data/airbnb_datos_limpios.xlsx
+2025-10-17 19:34:10 - INFO - Archivo Excel creado exitosamente:
+2025-10-17 19:34:10 - INFO -   - Ubicacion: ../data/airbnb_datos_limpios.xlsx
+2025-10-17 19:34:10 - INFO -   - Hojas: Listings, Reviews, Resumen
+2025-10-17 19:34:10 - INFO -   - Listings: 804 registros
+2025-10-17 19:34:10 - INFO -   - Reviews: 1,000 registros
+2025-10-17 19:34:10 - INFO - PASO 6: Verificando carga...
+2025-10-17 19:34:10 - INFO - Iniciando verificacion de carga en SQLite
+2025-10-17 19:34:10 - INFO - ============================================================
+2025-10-17 19:34:10 - INFO - VERIFICACION DE CARGA COMPLETADA
+2025-10-17 19:34:10 - INFO - ============================================================
+2025-10-17 19:34:10 - INFO - \U0001f4ca LISTINGS:
+2025-10-17 19:34:10 - INFO -   - Registros: 804
+2025-10-17 19:34:10 - INFO -   - Columnas: 5
+2025-10-17 19:34:10 - INFO -   - Estado: OK
+2025-10-17 19:34:10 - INFO - \U0001f4ca REVIEWS:
+2025-10-17 19:34:10 - INFO -   - Registros: 1,000
+2025-10-17 19:34:10 - INFO -   - Columnas: 3
+2025-10-17 19:34:10 - INFO -   - Estado: OK
+2025-10-17 19:34:10 - INFO - \U0001f517 INTEGRIDAD:
+2025-10-17 19:34:10 - INFO -   - Reviews sin listing: 0
+2025-10-17 19:34:10 - INFO -   - Estado: OK
+2025-10-17 19:34:10 - INFO - \U0001f4be BASE DE DATOS:
+2025-10-17 19:34:10 - INFO -   - Ruta: ../data/airbnb_etl.db
+2025-10-17 19:34:10 - INFO -   - Tamaño: 0.15 MB
+2025-10-17 19:34:10 - INFO - ============================================================
+2025-10-17 19:34:10 - INFO - ============================================================
+2025-10-17 19:34:10 - INFO - PROCESO DE CARGA FINALIZADO
+2025-10-17 19:34:10 - INFO - ============================================================
+2025-10-17 19:34:10 - INFO - Pasos exitosos: 5/5
+2025-10-17 19:34:10 - INFO - Estado general: \u2705 EXITOSO
+2025-10-17 19:34:10 - INFO - ============================================================
+2025-10-17 19:34:10 - INFO - FIN DEL LOG
+2025-10-17 19:34:10 - INFO - ============================================================
