@@ -80,11 +80,11 @@ python src/carga.py
 ## 📋 Responsabilidades
 
 ### Sebastian Medina
-
+Transformación de datos
 ### Melisa
-
+Exploración
 ### Carlos
-
+Carga y logs
 
 ## 📈 Características Implementadas
 
