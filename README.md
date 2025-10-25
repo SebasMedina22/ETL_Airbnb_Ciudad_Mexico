@@ -19,7 +19,7 @@ etl_airbnb/
 │   ├── logs.py           # Sistema de logging
 │   └── config.py         # Configuraciones
 ├── notebooks/             # Jupyter Notebooks
-│   └── transformacion.ipynb
+│   └── exploracion_airbnb.ipynb
 ├── data/                  # Datos procesados
 │   ├── airbnb_etl.db     # Base de datos SQLite
 │   └── airbnb_datos_limpios.xlsx
